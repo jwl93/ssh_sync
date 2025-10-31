@@ -1,0 +1,19 @@
+[project]
+name = "ssh-sync"
+version = "1.0.0"
+description = "fetch data through ssh(paramiko)"
+requires-python = ">=3.7"
+readme = "README.md"
+dependencies = [
+    'argh',
+    'paramiko',
+]
+
+[project.scripts]
+ssh_sync = "ssh_sync.ssh_sync:cli"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.package-data]
