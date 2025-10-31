@@ -4,7 +4,7 @@ fetch data through ssh(paramiko)
 ## Install
 python -m pip install ssh-sync
 
-# CookBook
+# Cook Book
 
-# [RoadMap]
+# Road Map
 - 1.0.0 init project
